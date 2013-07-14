@@ -1,7 +1,7 @@
-# ‚±‚ê‚Í‚È‚É‚©
-Eƒ[ƒ‹‚ðŽóM‚µ‚ÄAWEBƒT[ƒrƒX‚Åˆ—‚·‚é‚½‚ß‚ÌƒvƒƒOƒ‰ƒ€
+# ã“ã‚Œã¯ãªã«ã‹
+Eãƒ¡ãƒ¼ãƒ«ã‚’å—ä¿¡ã—ã¦ã€WEBã‚µãƒ¼ãƒ“ã‚¹ã§å‡¦ç†ã™ã‚‹ãŸã‚ã®ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
-# Žg—p—á
+# ä½¿ç”¨ä¾‹
     # vi /etc/postfix/main.cf
 #
     luser_relay = mailcatch
@@ -13,21 +13,21 @@ Eƒ[ƒ‹‚ðŽóM‚µ‚ÄAWEBƒT[ƒrƒX‚Åˆ—‚·‚é‚½‚ß‚ÌƒvƒƒOƒ‰ƒ€
     # newaliases
     # /etc/rc.d/init.d/postfix restart
 
-‚Æ‚·‚é‚ÆAŽ©“®‚Åhogehoge@domain‚Éƒ[ƒ‹‚µ‚½ê‡‚ÉA  
-http://domain/hogehoge/mailcatch/‚ÉJSONŒ`Ž®‚Ìƒf[ƒ^‚ðPOST‚µ‚Ä‚­‚ê‚é‚à‚Ì  
+ã¨ã™ã‚‹ã¨ã€è‡ªå‹•ã§hogehoge@domainã«ãƒ¡ãƒ¼ãƒ«ã—ãŸå ´åˆã«ã€  
+http://domain/hogehoge/mailcatch/ã«JSONå½¢å¼ã®ãƒ‡ãƒ¼ã‚¿ã‚’POSTã—ã¦ãã‚Œã‚‹ã‚‚ã®  
 
-JSON‚ÉŠi”[‚³‚ê‚Ä‚¢‚éƒf[ƒ^‚Í
+JSONã«æ ¼ç´ã•ã‚Œã¦ã„ã‚‹ãƒ‡ãƒ¼ã‚¿ã¯
 <pre><code>{
   "from" : "from@example.com",
   "subject" : "subject",
-  "body" : "ƒeƒLƒXƒg‚Ì‚Ý",
+  "body" : "ãƒ†ã‚­ã‚¹ãƒˆã®ã¿",
   "attachments" : [
     {
-      "content" : "Base64ƒGƒ“ƒR[ƒh‚³‚ê‚½ƒtƒ@ƒCƒ‹",
-      "filename" : "“Y•tƒtƒ@ƒCƒ‹–¼",
+      "content" : "Base64ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰ã•ã‚ŒãŸãƒ•ã‚¡ã‚¤ãƒ«",
+      "filename" : "æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«å",
       "main_type" : "image",
       "sub_type" : "jpeg"
     }
   ]
 }</pre></code>
-‚Ì‚æ‚¤‚É‚È‚Á‚Ä‚¨‚èA‘Î‰ž‚µ‚Ä‚¢‚é“Y•tƒtƒ@ƒCƒ‹‚Íjpeg‚Ì‚Ý‚Å‚·B
+ã®ã‚ˆã†ã«ãªã£ã¦ãŠã‚Šã€å¯¾å¿œã—ã¦ã„ã‚‹æ·»ä»˜ãƒ•ã‚¡ã‚¤ãƒ«ã¯jpegã®ã¿ã§ã™ã€‚
