@@ -13,8 +13,8 @@ Eメールを受信して、WEBサービスで処理するためのプログラ�
     # newaliases
     # /etc/rc.d/init.d/postfix restart
 
-とすると、自動でhogehoge@domainにメールした場合に、  
-http://domain/hogehoge/mailcatch/にJSON形式のデータをPOSTしてくれるもの  
+とすると、自動で`hogehoge@domain`にメールした場合に、  
+`http://domain/hogehoge/mailcatch/`にJSON形式のデータをPOSTしてくれるもの  
 
 JSONに格納されているデータは
 <pre><code>{
