@@ -17,7 +17,7 @@ Eメールを受信して、WEBサービスで処理するためのプログラム
 http://domain/hogehoge/mailcatch/にJSON形式のデータをPOSTしてくれるもの  
 
 JSONに格納されているデータは
-    {
+    \{
       "from" : "from@example.com",
       "subject" : "subject",
       "body" : "テキストのみ",
@@ -29,5 +29,5 @@ JSONに格納されているデータは
           "sub_type" : "jpeg"
         }
       ]
-    }
+    \}
 のようになっており、対応している添付ファイルはjpegのみです。
